@@ -12,7 +12,7 @@ Go to the downloads of this github project and download the latest .fdz file.
 Then, drag that file into your FlashDevelop window and proceed with the template
 extraction. From now on, you should be able to create Rygal projects.
 
-***Note:** You need to have Rygal installed using haxelib!*
+*__Note:__ You need to have Rygal installed using haxelib!*
 
 
 Questions?

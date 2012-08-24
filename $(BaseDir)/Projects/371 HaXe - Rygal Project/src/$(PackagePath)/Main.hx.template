@@ -5,6 +5,8 @@ import nme.events.Event;
 import nme.Lib;
 import org.rygal.Game;
 
+import $(PackageDot)scenes.MainScene;
+
 /**
 $(CBI)* ...
 $(CBI)* @author $(DefaultUser)

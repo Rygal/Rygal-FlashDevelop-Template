@@ -1,8 +1,9 @@
-package $(PackageName);
+package $(PackageDot)scenes;
 
 import nme.display.Sprite;
 import nme.events.Event;
 import nme.Lib;
+
 import org.rygal.Game;
 import org.rygal.GameTime;
 import org.rygal.graphic.Canvas;
@@ -35,6 +36,14 @@ class MainScene extends Scene $(CSLB){
 		super.update(time);
 		
 		// Place global game logic here, e.g. check win conditions.
+	}
+	
+	override public function draw(screen:Canvas):Void $(CSLB){
+		screen.clear();
+		
+		super.draw(screen);
+		
+		// Draw objects on the canvas.
 	}
 	
 }

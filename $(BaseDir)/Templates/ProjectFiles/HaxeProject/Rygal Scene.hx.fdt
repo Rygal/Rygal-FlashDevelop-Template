@@ -1,0 +1,49 @@
+package $(Package);
+
+import nme.display.Sprite;
+import nme.events.Event;
+import nme.Lib;
+
+import org.rygal.Game;
+import org.rygal.GameTime;
+import org.rygal.graphic.Canvas;
+import org.rygal.Scene;
+
+/**
+$(CBI)* ...
+$(CBI)* @author $(DefaultUser)
+$(CBI)*/
+
+class $(FileName) extends Scene $(CSLB){
+
+	public function new() $(CSLB){
+		super();
+	}
+
+	override public function load(game:Game):Void $(CSLB){
+		super.load(game);
+
+		// Add objects to this scene here, register event listeners here.
+	}
+
+	override public function unload():Void $(CSLB){
+		super.unload();
+
+		// Unregister event listeners here, remove event listeners here.
+	}
+
+	override public function update(time:GameTime):Void $(CSLB){
+		super.update(time);
+
+		// Place global game logic here, e.g. check win conditions.
+	}
+
+	override public function draw(screen:Canvas):Void $(CSLB){
+		screen.clear();
+
+		super.draw(screen);
+
+		// Draw objects on the canvas.
+	}
+
+}
